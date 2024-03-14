@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.geeks.noteapp.R
 import com.geeks.noteapp.databinding.FragmentOnBoardPagingBinding
 
 class OnBoardPagingFragment : Fragment() {
@@ -29,15 +30,19 @@ class OnBoardPagingFragment : Fragment() {
     private fun initialize() = with(binding) {
         when (requireArguments().getInt(ARG_ONBOARD_POSITION)) {
             0 -> {
+                lottie.setAnimation(R.raw.animation_one)
                 onTxt.text = "Очень удобный фунционал"
             }
 
             1 -> {
+                lottie.setAnimation(R.raw.animation_two)
                 onTxt.text = "Быстрый, качественный продукт"
             }
 
             2 -> {
+                lottie.setAnimation(R.raw.animation_three)
                 onTxt.text = "Куча функций и интересных фишек"
+
             }
         }
     }
