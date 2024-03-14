@@ -1,4 +1,4 @@
-package com.geeks.noteapp.adapter
+package com.geeks.noteapp.ui.adapter
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

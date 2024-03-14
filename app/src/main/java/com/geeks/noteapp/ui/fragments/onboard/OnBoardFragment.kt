@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.viewpager2.widget.ViewPager2
-import com.geeks.noteapp.adapter.OnBoardViewPagerAdapter
+import com.geeks.noteapp.ui.adapter.OnBoardViewPagerAdapter
 import com.geeks.noteapp.databinding.FragmentOnBoardBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
