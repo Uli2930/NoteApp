@@ -1,4 +1,4 @@
-package com.geeks.noteapp
+package com.geeks.noteapp.ui.activity
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
