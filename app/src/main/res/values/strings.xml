@@ -4,5 +4,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="skip">Пропустить</string>
     <string name="go_work">Начать работу</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="save">Save</string>
 
 </resources>

@@ -1,6 +1,5 @@
 package com.geeks.noteapp.data
 
-data class OnBoarding(
-    val image:Int,
+data class NoteModel(
     val title:String
 )
