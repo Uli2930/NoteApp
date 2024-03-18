@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
+import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
+import com.geeks.noteapp.R
 import com.geeks.noteapp.ui.adapter.OnBoardViewPagerAdapter
 import com.geeks.noteapp.databinding.FragmentOnBoardBinding
 import com.google.android.material.tabs.TabLayoutMediator
@@ -42,7 +44,9 @@ class OnBoardFragment : Fragment() {
 
             }
 
-
+        }
+        binding.goTxt.setOnClickListener{
+            findNavController().navigate(R.id.action_onBoardFragment_to_noteFragment)
         }
 
 
