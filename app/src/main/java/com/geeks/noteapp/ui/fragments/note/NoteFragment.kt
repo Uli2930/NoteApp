@@ -32,12 +32,12 @@ class NoteFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initalize()
+        initialize()
         setupListener()
         getData()
     }
 
-    private fun initalize() {
+    private fun initialize() {
         binding.noteRecyclerView.apply {
             layoutManager = LinearLayoutManager(requireContext())
             adapter = noteAdapter
@@ -45,7 +45,7 @@ class NoteFragment : Fragment() {
     }
 
     private fun setupListener() {
-        binding.addBtn.setOnClickListener {
+        binding.btnPlus.setOnClickListener {
             findNavController().navigate(R.id.action_noteFragment_to_noteDetailFragment)
         }
     }

@@ -8,7 +8,7 @@
     <string name="save">Save</string>
     <string name="add">Add</string>
     <string name="notes">Заметки</string>
-    <string name="search">Поиск заметок</string>
     <string name="plus">+</string>
+    <string name="search_notes">Поиск заметок</string>
 
 </resources>
